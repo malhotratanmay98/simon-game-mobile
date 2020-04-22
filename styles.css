@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+p{                                  /*we have used para in game rules*/
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.help-button{
+                       /*this button is properties are taken from css3 button generator*/
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #63B8EE;
+    background: linear-gradient(top,  #11CDD4,  #11999E);
+    background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+    background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+    background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+  }
+  .help-button:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(top,  #30E3CB,  #2bc4ad);
+    background: -ms-linear-gradient(top,  #30E3CB,  #2bc4ad);
+    background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2bc4ad));
+    background: -moz-linear-gradient(top,  #30E3CB,  #2bc4ad);
+  }
+
+
+
+
+@media (max-width:1028px) {
+  p{
+    margin-top: 30%;
+  }
+  .help-row{
+    margin-top: 15%;
+  }
+}

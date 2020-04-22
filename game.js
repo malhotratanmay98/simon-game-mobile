@@ -8,7 +8,7 @@ var gameStarted=false;      //we have to click A key to start
 var level=0;
 
 
-$(document).keypress(function() {        //$("h1").click(function() this is for click function
+$("h1").click(function() {        //$("h1").click(function() this is for click function
   if (!gameStarted) {
 
     //3. The h1 title starts out saying "Press Any Key to Start", when the game has started, change this to say "Level 0".
@@ -65,7 +65,7 @@ function checkAnswer(currentLevel) {
      }, 200);
 
      // Change the h1 title to say "Game Over, Press Any Key to Restart" if the user got the answer wrong.
-     $("#level-title").text("Game Over, press any key to Restart");
+     $("#level-title").text("Game Over, tap here to restart");
 
 
 

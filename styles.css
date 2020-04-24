@@ -61,6 +61,7 @@ p{                                  /*we have used para in game rules*/
 .help-button{
                        /*this button is properties are taken from css3 button generator*/
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     color: #FFFFFF !important;
     font-size: 20px;
     text-shadow: 1px 1px 0px #7CACDE;
